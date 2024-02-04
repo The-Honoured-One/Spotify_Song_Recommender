@@ -14,7 +14,12 @@ Approach:- Tags have been created using the artist name and the lyrics (most sui
 
 To ensure these tags are relevant. Stopwords(words which do not convey meaning to a sentence but are used to add different words together) have been removed.
 
+![image](https://github.com/The-Honoured-One/Spotify_Song_Recommender/assets/152301760/5255689b-7f37-42f9-a98c-6ab86c6eb5c3)
+
 Then, a vector is created using those scores and the similarity between those vectors is calculated using Cosine similarity ( I chose not to use Euclidean distances as it might not give good results in higher
 dimension vectors). 
 
 Lastly, the top 5 (excluding the song itself) songs are displayed based on this similarity score calculated earlier, to the user.
+
+![image](https://github.com/The-Honoured-One/Spotify_Song_Recommender/assets/152301760/5eea0356-4914-4256-b38a-1641650c08e7)
+
